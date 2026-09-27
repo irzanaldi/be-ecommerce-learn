@@ -1,0 +1,33 @@
+# === Environment & Secrets ===
+.env
+.env.*
+!.env.example
+!.env.sample
+*.key
+*.pem
+
+# === OS ===
+.DS_Store
+
+# === Logs ===
+*.log
+
+# === Go build artifacts ===
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+go.work.sum
+
+# === Vendored dependencies ===
+/vendor/
+
+# === Editor ===
+.idea/
+.vscode/
+*.iml
